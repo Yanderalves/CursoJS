@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img#imagem {
+    height: 500px;
+    width: 620px;
+    border-radius: 10px;
+    border: solid;
+    box-shadow: 0 20px 30px black;
+    transition: all 1s;
+}
+
+input#btnEvancar {
+    background-image: ("images/1.jpg");
+}

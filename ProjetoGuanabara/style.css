@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-android: 'android';
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #84e1ad;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: green;
+    width: 100vw;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-image: linear-gradient(#3bd37f, #1b693e);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.484);
+    font-family: var(--fonte-padrao);
+    color: white;
+}
+
+header>p {
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 40px;
+}
+
+h2,
+h3 {
+    font-family: var(--fonte-android);
+    color: #1b693e;
+    margin: 15px;
+}
+
+main p {
+    text-indent: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 15px;
+    max-width: 800px;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #3bd37f62, #1b693e00);
+
+}
+
+a {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a:visited {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+
+li {
+    color: white;
+}
+
+a:hover {
+    background-color: #31935a;
+    transition: all 1s;
+}
+
+
+header>nav>ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+
+}
+
+main {
+    max-width: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.245);
+    font-family: var(--fonte-padrao);
+}
+
+#imgTorta {
+    height: 200px;
+    width: 300px;
+    align-self: center;
+}
+
+#aprenderMais {
+    background-color: #31935a4d;
+    margin: 0;
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+#aprenderMais>h3 {
+    background-color: #31935a;
+    color: white;
+    font-family: var(--fonte-padrao);
+    padding: 5px;
+    margin: 0;
+    border-radius: 7px;
+}
+
+
+#aprenderMais>#listaAndroids {
+    display: flex;
+    justify-content: space-around;
+}
+
+#listaAndroids>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: inside;
+
+}
+
+#listaAndroids>ul>li {
+    color: black;
+}
+
+footer {
+    height: 50px;
+    background-color: #1b693e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    color: white;
+    margin-top: 15px;
+    font-family: var(--fonte-destaque);
+}
