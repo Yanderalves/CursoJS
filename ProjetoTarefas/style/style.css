@@ -100,25 +100,3 @@ main#containerTarefas {
     height: 100%;
     cursor: pointer;
 }
-
-/* .container{
-    display: flex;
-    justify-content: center;
-}
-
-input#inputTarefa{
-    width: 90%;
-    height: 67px;
-    border: 1px solid;
-    padding-left: 40px;
-    font-size: 25px;
-}
-
-button#btnAdicionar{
-    height: 70px;
-    width: 180px;
-    border: 1px solid;
-    background-color: green;
-    color: aliceblue;
-    border-radius: 0px 8px 8px 0px;
-} */
