@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: black;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin-top: 15px;
+    background-color: rgba(236, 250, 215, 0.808);
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    align-items: center;
+    margin: auto auto;
+    margin-top: 10px;
+}
+
+input {
+    height: 170px;
+    padding-left: 10%;
+    width: 80%;
+    font-size: 2rem;
+    box-shadow: 0 0 20px #ccc;
+}
+
+button.btnAdd {
+    width: 20%;
+    height: 170px;
+    background-color: green;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main#containerTarefas {
+    width: 90%;
+    display: flex;
+    margin: auto auto;
+    flex-flow: row wrap;
+    padding-top: 40px;
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 0 20px #ccc;
+    margin-bottom: 2%;
+}
+
+.item.marcado {
+    background-color: rgba(22, 155, 104, 0.397);
+}
+
+.item.marcado .itemTexto {
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.712);
+}
+
+.item.marcado .itemIcone {
+    color: green;
+}
+
+.itemIcone {
+    flex: 20%;
+    font-size: 2rem;
+    padding-left: 5%;
+}
+
+.itemTexto {
+    flex: 55%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.itemBotao {
+    flex: 25%;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.btnDeletar {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* .container{
+    display: flex;
+    justify-content: center;
+}
+
+input#inputTarefa{
+    width: 90%;
+    height: 67px;
+    border: 1px solid;
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+button#btnAdicionar{
+    height: 70px;
+    width: 180px;
+    border: 1px solid;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 0px 8px 8px 0px;
+} */
