@@ -9,19 +9,19 @@ function AdicionarTarefa() {
 
     if (!(["", null, undefined].includes(valorTarefa))) {
         let novoItem = `<div id="${contador}" class="item">
-        <div onclick="MarcarTarefa(${contador})" class="itemIcone">
-            <i id="icone${contador}" class="mdi mdi-circle-outline"></i>
-        </div>
-        <div class="itemTexto">
-            ${valorTarefa}
-        </div>
-        <div class="itemBotao">
-            <button onclick="DeletarTarefa(${contador})" class="btnDeletar">
-                <i class="mdi mdi-delete"></i>
-                Deletar
-            </button>
-        </div>
-    </div>`
+            <div onclick="MarcarTarefa(${contador})" class="itemIcone">
+                <i id="icone${contador}" class="mdi mdi-circle-outline"></i>
+            </div>
+            <div class="itemTexto">
+                ${valorTarefa}
+            </div>
+            <div class="itemBotao">
+                <button onclick="DeletarTarefa(${contador})" class="btnDeletar">
+                    <i class="mdi mdi-delete"></i>
+                    Deletar
+                </button>
+            </div>
+         </div>`
 
         containerPrincipal.innerHTML += novoItem;
         contador++;

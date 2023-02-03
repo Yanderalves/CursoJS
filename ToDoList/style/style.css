@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tarefa-concluida{
+    color: red;
+    text-decoration: line-through;
+}
+
+.tarefa-concluida > input[type="checkbox"] :checked{
+    color: magenta !important;
+}
